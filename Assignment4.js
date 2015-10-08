@@ -39,7 +39,7 @@ var puppy = new Dog();
 
 
 /*
-// STEP 4. 4. Start over and now create a new class using constructor notation called Animal. When a new instance of the Animal class is created, the message “The Animal has been created” should be displayed in the console window.
+// STEP 4. Start over and now create a new class using constructor notation called Animal. When a new instance of the Animal class is created, the message “The Animal has been created” should be displayed in the console window.
 
 var Animal = function () {
     console.log("The Animal has been created");
@@ -50,7 +50,7 @@ var myAnimal = new Animal();
 
 
 /*
-// STEP 5. 5. Now, change the above code so that it uses constructor notation instead. The class should accept a parameter and that value is what should be displayed in the console window. The message should be passed as an argument into the constructor at the moment that the Animal class is instantiated.
+// STEP 5. Now, change the above code so that it uses constructor notation instead. The class should accept a parameter and that value is what should be displayed in the console window. The message should be passed as an argument into the constructor at the moment that the Animal class is instantiated.
 
 var Animal = function(value) {
     console.log(value);
@@ -60,7 +60,7 @@ var myAnimal = new Animal("This is a cat");
 */
 
 /*
-// STEP 6. 6. Start over and now create a new class using constructor notation called Animal. Define five properties within your class including type, breed, color, height, and length. These properties will be set in the constructor so you’ll need to pass in parameters into the function’s constructor, set the properties, and then pass in the actual arguments during the object’s instantiation. 
+// STEP 6. Start over and now create a new class using constructor notation called Animal. Define five properties within your class including type, breed, color, height, and length. These properties will be set in the constructor so you’ll need to pass in parameters into the function’s constructor, set the properties, and then pass in the actual arguments during the object’s instantiation. 
 
 function Animal(type, breed, color, height, length) {
     this._type = type;
@@ -236,9 +236,10 @@ console.log(toyota.checkOil());
 
 /*--------------------------------------------------*/
 
-/*
+
 // The Recipe Card (10 points)	
 
+/*
 // Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings). Your object should have a publically available method that when called, will log out the recipe within the console so that the recipe information looks like this:
 
 Guacamole
@@ -252,6 +253,7 @@ Ingredients:
 - 2 Diced Tomatoes
 - 1 Teaspoon Garlic
 - 1 Pinch Ground Pepper
+
 
 
 var favRecipe = function(title, servings, ingredients) {
